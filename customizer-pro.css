@@ -224,7 +224,7 @@ td.right {text-align:right !important;}
 .su-search-button + .su-alert {margin-top:2rem;}
 
 .su-post-tag {color:#222;display:inline-block;height:40px;line-height:40px;padding-left:20px;padding-right:18px;border-radius:20px;border-bottom:1px solid #ccc;transition:all .2s ease-in-out;box-shadow:rgba(0,0,0,0.15) 0 3px 15px;text-decoration:none !important;}
-.su-post-tag:hover {color:#fff;}
+.su-post-tag:hover {color:#fff !important;}
 .su-post-tag-red {border-right:8px solid #e91e63;}
 .su-post-tag-red:hover {background:#e91e63;border-right-color:#f06292;}
 .su-post-tag-green {border-right:8px solid #00bcd4;}
@@ -254,6 +254,7 @@ article.category-best-seller-digital .header-bottom .post-info, article.category
 
 emojis.cow-face::before {content:'\01F42E';}
 emojis.slightly-smiling-face::before {content:'\01F642';}
+emojis.smiling-face-with-smiling-eyes::before {content:'\01F60A';}
 
 @media screen and (min-width:768px) and (max-width:1023px) {.tc-sidebar.right {padding-left:1em;} .col-md-3 {-ms-flex:0 0 34%;flex:0 0 34%;max-width:34%;} .col-md-9 {-ms-flex:0 0 66%;flex:0 0 66%;max-width:66%;}}
 @media screen and (min-width:1024px) and (max-width:1279px) {.tc-sidebar.right {padding-left:1.5em;} .col-md-3 {-ms-flex:0 0 28%;flex:0 0 28%;max-width:28%;} .col-md-9 {-ms-flex:0 0 72%;flex:0 0 72%;max-width:72%;}}
