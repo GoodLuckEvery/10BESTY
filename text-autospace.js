@@ -50,11 +50,10 @@
             return window.findAndReplaceDOMText(a, b);
         }
 
-    $(document).on('ready',
-        function() {
-            init();
-            $("code c,pre c,kbd c,samp c,h1 c,.sue-plan-options>ul>li c,.su-label c,.su-table c,.su-heading>c,.su-tabs-nav>c,.su-button>c,.aawp-table c,ol>c,ul>c,td+c").remove();
-        });
+    $(document).on('ready', function() {
+        init();
+        $("code c,pre c,kbd c,samp c,h1 c,.right c,.sue-plan-options>ul>li c,.su-label c,.su-table c,.su-heading>c,.su-tabs-nav>c,.su-button>c,.aawp-table c,ol>c,ul>c,td+c").remove();
+    });
 })(window, window.jQuery, undefined);
 
 /**

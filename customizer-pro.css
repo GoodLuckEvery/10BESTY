@@ -5,6 +5,7 @@ a {color:#e10707;}
 
 article .entry-content a {text-decoration:none;}
 article .entry-content a:hover {color:#a60505;text-decoration:underline;}
+article .entry-content c {display:inline;margin-left:0.1rem;margin-right:0.1rem;}
 article .entry-content div.su-heading {border-top:1px solid #5ce;border-bottom:1px solid #5ce;margin-top:3rem;font-size:24px !important;}
 article .entry-content div.su-heading div.su-heading-inner {border-top:4px solid #aafafa;border-bottom:4px solid #aafafa;padding:0.5em 0.5em;}
 article .entry-content div.ads-adsense {margin:2rem auto;}
@@ -78,7 +79,6 @@ i.sui-check, i.sui-arrow-right, i.sui-briefcase, i.sui-chevron-right, i.sui-book
 i.sui-exclamation, i.star {font-size:20px;color:#ff8c00 !important;}
 i.sui-ban {color:#bf000a !important;}
 i.sui-info-circle {color:#5ce !important;}
-c {display:inline;margin-left:0.1rem;margin-right:0.2rem;}
 img.border {width:100%;-webkit-box-shadow:0 0 10px rgba(0, 204, 204, .5);box-shadow:0 0 10px rgba(0, 204, 204, .5);}
 img.circle {border-radius:50%;}
 
@@ -140,13 +140,13 @@ td.right {text-align:right !important;}
 .sue-plan-price-after {font-size:0.5em !important;}
 .sue-plan-options {padding:0 1rem;}
 
-.su-section-header {border-bottom:2px solid #212121;margin: 2rem auto 0.8rem;background-image:url("images/section-header-background.svg");background-repeat:no-repeat;}
+.su-section-header {border-bottom:2px solid #212121;margin:2rem auto 1.2rem;background-image:url("images/section-header-background.svg");background-repeat:no-repeat;}
 .su-section-header h3 {display:inline-block;margin:7px 0 5px 7px;color:#fff;text-shadow:1px 1px 0 #000;padding:4px 12px;font-size:20px;font-weight:500;background-image:url("images/section-header-background.png");}
 .su-section-header h3.blue {background-position:0 -104px;}
 .su-section-header h3.green {background-position:0 -208px;}
-.su-section-header + ul{display:block;padding:0 !important;margin-bottom:2.5rem !important;}
-.su-section-header + ul li {list-style-type:none;display:inline-block;padding:0.5rem !important;}
-    
+.su-section-header + ul {display:block;padding:0 !important;margin-bottom:3.5rem !important;}
+.su-section-header + ul li {list-style-type:none;display:inline-block;padding-right:1rem !important;}
+
 .su-alert {padding:1.5rem;margin:1.5rem 0;}
 .su-alert h3, .su-note-inner h3 {margin-top:0;margin-bottom:1.5rem;}
 .su-alert-red {border-left:0.5rem #ff4a48 solid;background-color:#ffe8e8;}
