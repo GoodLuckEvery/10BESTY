@@ -150,7 +150,7 @@ td.right {text-align:right !important;}
 .su-section-header h3.blue {background-position:0 -104px;}
 .su-section-header h3.green {background-position:0 -208px;}
 .su-section-header + ul {display:block;padding:0 !important;margin-bottom:3.5rem !important;}
-.su-section-header + ul li {list-style-type:none;display:inline-block;padding-right:1rem !important;}
+.su-section-header + ul li {list-style-type:none;display:inline-block;margin-bottom:1rem;padding-right:1rem !important;}
 
 .su-alert {padding:1.5rem;margin:1.5rem 0;}
 .su-alert h3, .su-note-inner h3 {margin-top:0;margin-bottom:1.5rem;}
