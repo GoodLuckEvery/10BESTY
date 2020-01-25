@@ -1,0 +1,16 @@
+#available-widgets .widget {margin:5px 0px;}
+#available-widgets .widget .widget-description {display:none;}
+#widgets-right .sidebars-column-1, #widgets-right .sidebars-column-2 {max-width:900px !important;float:none;width:100%;}
+
+#auhfc_head {height:300px;}
+#auhfc_footer {height:1000px;}
+#head_footer_code_settings .sidebar_container {display:none !important;}
+#head_footer_code_settings .form-table th:first-child {width:100px;}
+
+#WINP_BaseOptionsMetaBox label.control-label {max-width:100px;}
+#WINP_BaseOptionsMetaBox div.control-group {width:90%;}
+
+#section-holder {clear: none;}
+
+.edit-post-text-editor {max-width:95%;}
+.editor-post-title__block {max-width:100%;}
