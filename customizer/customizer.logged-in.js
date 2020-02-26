@@ -1,5 +1,6 @@
 // Font Awesome
 jQuery(window).load(function(){var link=jQuery("<link />");link.attr("rel","stylesheet");link.attr("href","https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.0/css/all.min.css");link.attr("type","text/css");link.appendTo(jQuery("head"))});
+function toggle_body_background(){if(jQuery("div#wpadminbar input.eye-protection").is(":checked")){jQuery(document.body).addClass("logged-in")}else{jQuery(document.body).removeClass("logged-in")}};
 
 // Q2W3 Fixed Widget
 var q2w3_sidebar_options = [{"sidebar":"right","margin_top":10,"margin_bottom":70,"stop_id":"footer-horizontal-widget-area","screen_max_width":767,"screen_max_height":0,"width_inherit":false,"refresh_interval":1000,"window_load_hook":false,"disable_mo_api":false,"widgets":["text-101"]}];

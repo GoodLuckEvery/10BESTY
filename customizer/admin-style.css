@@ -1,3 +1,5 @@
+#wpadminbar input.eye-protection {display:inline-block;margin-bottom:3px;margin-right:2px;zoom:200%;}
+
 #available-widgets .widget {margin:5px 0px;}
 #available-widgets .widget .widget-description {display:none;}
 #widgets-right .sidebars-column-1, #widgets-right .sidebars-column-2 {max-width:900px !important;float:none;width:100%;}

@@ -1,0 +1,21 @@
+body.logged-in {
+  background-color: #cce8cf !important;
+}
+body.logged-in .grid__item,
+body.logged-in .fpc-container[data-bgcolor="#fafafa"],
+body.logged-in div.banner,
+body.logged-in .pt-cv-pinterest .pt-cv-pinmas,
+body.logged-in .su-box-content {
+  background-color: transparent !important;
+}
+body.logged-in .fpc-container[data-bgcolor="#fafafa"] .fpc-widget-front .czr-link-mask {
+  border-color: #cce8cf !important;
+}
+body.logged-in .fp-title .edit-link,
+body.logged-in .btn-edit {
+  display: none !important;
+}
+body.logged-in .su-heading .su-heading-inner {
+  border-top-color: #ccc !important;
+  border-bottom-color: #ccc !important;
+}
