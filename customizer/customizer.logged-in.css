@@ -3,7 +3,8 @@ body.logged-in {
 }
 body.logged-in .grid__item,
 body.logged-in .fpc-container[data-bgcolor="#fafafa"],
-body.logged-in div.banner,
+body.logged-in .banner,
+body.logged-in .post-item-image .title,
 body.logged-in .pt-cv-pinterest .pt-cv-pinmas,
 body.logged-in .su-box-content {
   background-color: transparent !important;
