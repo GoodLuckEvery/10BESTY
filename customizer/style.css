@@ -26,15 +26,15 @@ div.share {border-top:1px #5ce solid;padding-top:3px;}
 div.share table tr td:nth-child(1) {width:45px;}
 div.share table tr td:nth-child(1) i {color:#000;font-size:1.8rem;}
 
+div#adsense-after-content {border-bottom:#5ce 1px solid;margin-bottom:2rem;}
+div#adsense-after-content ins.adsbygoogle {display:block;text-align:center;}
 div#commentlist-container div.comment-author {font-weight:bold;}
 div#commentlist-container div.comment-author > span.small {font-weight:normal;margin:3px;border-radius:3px;color:#008821;display:inline-block;font-size:11px;border:1px solid #008821;padding:3px;line-height:12px;}
-
 div#footer-horizontal-widget-area div.textwidget > div.center {margin:0 0 -1.5rem 0;padding-bottom:0.5rem;border-top:1px solid #ddd;background-color:#f7f8f9;}
 div#footer-horizontal-widget-area div.textwidget > div.center > div {margin:1.5rem auto;max-width:1200px;}
 div#footer-horizontal-widget-area div.textwidget > div.center > div table {margin-bottom:1rem;}
 div#footer-horizontal-widget-area div.textwidget > div.center > div table td {text-align:center;}
 div#footer-horizontal-widget-area div.textwidget > div.center > div table td img {width:75%;}
-div#footer-widget-area div#footer_three form.search-form div.form-group button:hover {background-color:#fff;border-color:#fff;}
 
 div.post-item-image.center {float:none;width:100%;margin-left:0;margin-right:0;}
 div.post-item-image.center > img {width:100%;margin-bottom:0 !important;-webkit-box-shadow:0 0 10px rgba(0,204,204,.5);box-shadow:0 0 10px rgba(0,204,204,.5);}
