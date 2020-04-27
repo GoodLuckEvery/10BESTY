@@ -86,7 +86,7 @@ table.left-first tr td:first-child {text-align:left;}
 
 table.fixed {table-layout:fixed;}
 table.clear tr td {border:none !important;}
-table tr td ul {margin-bottom:0 !important;};
+table tr td ul {margin-bottom:0 !important;}
 
 table.shop {box-shadow:0px 2px rgba(0,0,0,0.12);table-layout:fixed;max-width:340px;border-width:0;margin-left:auto;margin-right:auto;}
 table.shop tr {text-align:center;border-bottom:2px #e10206 solid;}
