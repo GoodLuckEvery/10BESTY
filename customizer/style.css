@@ -16,23 +16,26 @@ div.banner p {text-align:center;}
 div.banner .banner-top-logo {line-height:120px;border-bottom:1px #efefef solid;}
 div.banner .banner-detail {margin:2rem auto 3rem 2rem;text-align:left;}
 div.banner .banner-detail ul li i.sui-arrow-right {width:15px;margin-right:10px;}
+div.banner .banner-payments {padding-top:5px;padding-bottom:24px;}
+div.banner .banner-payments i {margin:0.15rem;}
 div.banner .banner-bottom {font-size:1rem;padding-top:14px;padding-bottom:2px;border-top:1px #efefef solid;}
 div.banner .banner-bottom a {display:block;margin:0.4rem auto;}
 
-div.post-item-button {margin:15px 0px;}
+div.post-item-button {margin:1.2rem auto;}
 div.chart-container {margin-top:2rem;height:320px;}
 div.flex-row div.col-sm-auto {margin-left:auto;margin-right:auto;}
 div.pt-cv-pinmas > h4.pt-cv-title {margin-top:0.3rem !important;margin-bottom:-0.3rem !important;}
 div.pt-cv-pinmas > div.pt-cv-content > a.pt-cv-readmore {margin-top:0.6rem !important;}
 div.affiliate-disclosure {padding:13px 10px;font-size:1rem;text-align:justify;}
-div.center div.tips {font-size:14px;margin:-1rem auto 1.5rem auto;}
+div.center div.tips {font-size:14px;margin:0.3rem auto 1.5rem auto;}
 div.shopping-deals {border:#1a73e8 3px solid;}
 div.shopping-deals:hover {background-color:#fffdd0;}
 div.share {padding-top:2px;}
 div.share table tr td:nth-child(1) {width:45px;}
 div.share table tr td:nth-child(1) i {color:#000;font-size:1.8rem;}
 
-div#commentlist-container div.comment-author {font-weight:bold;}
+div#commentlist-container div.comment-content {font-size:1em;}
+div#commentlist-container div.comment-author, div#commentlist-container div.comment-author a {font-weight:bold;}
 div#commentlist-container div.comment-author > span.small {font-weight:normal;margin:3px;border-radius:3px;color:#008821;display:inline-block;font-size:11px;border:1px solid #008821;padding:3px;line-height:12px;}
 div#footer-horizontal-widget-area div.textwidget > div.center {margin:0 0 -1.5rem 0;padding-bottom:0.5rem;border-top:1px solid #ddd;background-color:#f7f8f9;}
 div#footer-horizontal-widget-area div.textwidget > div.center > div {margin:1.5rem auto;max-width:1200px;}
@@ -40,8 +43,10 @@ div#footer-horizontal-widget-area div.textwidget > div.center > div table {margi
 div#footer-horizontal-widget-area div.textwidget > div.center > div table td {text-align:center;}
 div#footer-horizontal-widget-area div.textwidget > div.center > div table td img {width:75%;}
 
-div.post-item-image.center {float:none;width:100%;margin-left:0;margin-right:0;}
-div.post-item-image.center > img {width:100%;margin-bottom:0 !important;-webkit-box-shadow:0 0 10px rgba(0,204,204,.5);box-shadow:0 0 10px rgba(0,204,204,.5);}
+div.shop-item.center {float:none;margin-left:auto;margin-right:auto;}
+div.shop-item.center > img {width:100%;margin-bottom:0 !important;}
+div.shop-item.center.border {width:100%;}
+div.shop-item.center.border > img {-webkit-box-shadow:0 0 10px rgba(0,204,204,.5);box-shadow:0 0 10px rgba(0,204,204,.5);}
 
 div.line-title {position:relative;margin:0.5em 0;}
 div.line-title:before {content:'';position:absolute;top:50%;width:100%;border-bottom:dotted 1px #ddd;}
@@ -54,13 +59,13 @@ div.line-title-section-container + div.su-row .su-column-inner {padding-left:0.5
 div.sidebar li a:hover {color:#a60505 !important;}
 div.textwidget div.su-heading div.su-heading-inner {padding:0.2em;font-size:18px;border-top:4px solid #ffe4e1;border-bottom:4px solid #ffe4e1;}
 div.textwidget div.su-list ul {text-align:left;}
-div.textwidget div.post-item-image {float:none;width:100%;border:1px solid #eee;margin:0;}
-div.textwidget div.post-item-image div.title {padding:0.5em 0;font-size:1.2rem;font-weight:bold;background:#fbfcfd;border-bottom:1px solid #eee;margin-bottom:1rem;}
-div.textwidget div.post-item-image img {width:90%;margin:1em auto;}
-div.textwidget div.post-item-image table {border-top:1px #eee solid !important;margin:1em 0 0 0 !important;width:100%;max-width:100%;box-shadow:none;}
-div.textwidget div.post-item-image table tr {border-bottom:none !important;}
-div.textwidget div.post-item-image table tr td {padding:0 0.4em !important;border-bottom:none !important;}
-div.textwidget div.post-item-image p {text-align:center;}
+div.textwidget div.shop-item {float:none;width:100%;border:1px solid #eee;margin:0;}
+div.textwidget div.shop-item div.title {padding:0.5em 0;font-size:1.2rem;font-weight:bold;background:#fbfcfd;border-bottom:1px solid #eee;margin-bottom:1rem;}
+div.textwidget div.shop-item img {width:90%;margin:1em auto;}
+div.textwidget div.shop-item table {border-top:1px #eee solid !important;margin:1em 0 0 0 !important;width:100%;max-width:100%;box-shadow:none;}
+div.textwidget div.shop-item table tr {border-bottom:none !important;}
+div.textwidget div.shop-item table tr td {padding:0 0.4em !important;border-bottom:none !important;}
+div.textwidget div.shop-item p {text-align:center;}
 
 table th {letter-spacing:1px !important;}
 table:not(.aawp-table) {border:none !important;}
@@ -95,7 +100,7 @@ table.shop tr td a img {width:80%;}
 table.shop-icon {width:auto;margin:1.2rem auto;}
 table.shop-icon td {width:4rem;border:none !important;}
 
-a.plan-button {color:#ffffff;margin:0 5px;padding:5px 10px;font-size:14px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;}
+a.plan-button {color:#fff;margin:0 5px;padding:5px 10px;font-size:14px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;}
 a.plan-button:hover {background:transparent !important;}
 a.plan-button-red {background-color:#e10707;border:2px solid #e10707;}
 a.plan-button-red:hover {background:transparent !important;color:#e10707 !important;}
@@ -155,6 +160,7 @@ hr.split {margin:0 !important;border-top:1px #5ce solid !important;}
 
 .su-tabs div.su-tabs-nav span {font-size:16px;}
 .su-tabs div.su-tabs-pane {font-size:15px;}
+.su-tabs div.su-tabs-pane hr {margin-top:1rem;margin-bottom:1rem;}
 .su-tabs-style-flat-blue table.aawp-table,.su-tabs-style-flat-green table.aawp-table {border:none !important;}
 .su-tabs-style-flat-blue table.aawp-table th,.su-tabs-style-flat-green table.aawp-table th {color:#444;}
 .su-tabs-style-flat-blue p.aawp-disclaimer a,.su-tabs-style-flat-green p.aawp-disclaimer a {color:#fff;}
@@ -296,16 +302,19 @@ hr.split {margin:0 !important;border-top:1px #5ce solid !important;}
 .btn-draw {display:block;cursor:pointer;color:#3f95ff !important;font-size:1rem;margin-bottom:1rem;padding:0.64rem;text-align:center;border:2px #3f95ff solid;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
 .btn-draw:hover {color:#fff !important;background-color:#00aeef;}
 
-footer#footer {text-align:left;position:relative;}
-footer#footer div.title {font-size:16px;margin-left:0.5rem;}
-footer#footer div p {padding-left:0.5rem;}
-footer#footer div p.text {color:#777;}
-footer#footer div p a {font-size:15px;line-height:36px;}
-footer#footer div hr {margin-top:15px;margin-bottom:15px;width:90%;border-bottom:0px;border-top:1px #888 solid;}
+footer#footer #footer-widget-area {text-align:left;position:relative;}
+footer#footer #footer-widget-area div.title {font-size:16px;margin-left:0.5rem;}
+footer#footer #footer-widget-area div p {padding-left:0.5rem;}
+footer#footer #footer-widget-area div p.text {color:#777;}
+footer#footer #footer-widget-area div p a {font-size:15px;line-height:36px;}
+footer#footer #footer-widget-area div hr {margin-top:15px;margin-bottom:15px;width:90%;border-bottom:0px;border-top:1px #888 solid;}
 	
 emojis.cow-face::before {content:'\01F42E';}
 emojis.slightly-smiling-face::before {content:'\01F642';}
 emojis.smiling-face-with-smiling-eyes::before {content:'\01F60A';}
+emojis.face-with-tears-of-joy::before {content:'\01F602';}
+emojis.thumbs-up::before {content:'\01F44D';}
+emojis.loudly-crying-face::before {content:'\01F62D';}
 
 #cancel-comment-reply-link, .action-link, .btn-large, .btn-more, .caps, .comment-reply-link, .czr-overlay .overlay-content .nav__container nav, .nav__menu, .post-author__wrapper figure figcaption .action-link, .post-author__wrapper figure figcaption .comment-reply-link, .post-navigation .page-numbers, .post-navigation a, .post-section-title, .sidebar .widget-title, .tax__container a, .widget_calendar caption, .widget_calendar tfoot, .widget_categories li, button, label, input, table th {text-transform:none !important;}
 
@@ -318,9 +327,9 @@ emojis.smiling-face-with-smiling-eyes::before {content:'\01F60A';}
 	footer#footer div hr {width:90%;}
 
 	div.comments-area {margin-top:-2rem;}
-	div.post-item-image {float:right;width:360px;text-align:center;margin:10px 0 10px 10px;}
-	div.su-column-inner div.post-item-image,div.line-title-section-container + div.post-item-image {float:none;margin-left:auto;margin-right:auto;}
-	div.post-item-image > img {width:320px;margin:3px 0px;}
+	div.shop-item {float:right;width:360px;text-align:center;margin:10px 0 10px 10px;}
+	div.su-column-inner div.shop-item,div.line-title-section-container + div.shop-item {float:none;margin-left:auto;margin-right:auto;}
+	div.shop-item > img {width:320px;margin:3px 0px;}
 
 	div.textwidget div.pt-cv-wrapper div.pt-cv-content-item {padding-bottom:5px;}
 	div.textwidget div.pt-cv-wrapper div.pt-cv-ifield img.pt-cv-thumbnail {width:95px;margin-right:12px !important;}
@@ -360,8 +369,8 @@ emojis.smiling-face-with-smiling-eyes::before {content:'\01F60A';}
 /** Pad */
 @media screen and (min-device-width:768px) and (max-device-width:1024px) {
 	div.comments-area {margin-top:-2rem;}
-	div.post-item-image {text-align:center;margin:0px auto 15px auto;}
-	div.post-item-image img {width:320px;margin:3px 0px;}
+	div.shop-item {text-align:center;margin:0px auto 15px auto;}
+	div.shop-item img {width:320px;margin:3px 0px;}
 
 	table.best-seller {width:auto;border:none !important;margin:3.5rem auto 1rem auto;}
 	table.best-seller td.icon {width:38px;padding:0 !important;}
@@ -394,8 +403,8 @@ emojis.smiling-face-with-smiling-eyes::before {content:'\01F60A';}
 	div.czr-wp-the-content div.pt-cv-ifield div.pt-cv-content {height:50px !important;white-space:nowrap;}
 
 	div.comments-area {margin:-2rem auto 3rem auto;}
-	div.post-item-image {text-align:center;margin:0px auto 15px auto;}
-	div.post-item-image img {width:320px;margin:3px 0px;}
+	div.shop-item {text-align:center;margin:0px auto 15px auto;}
+	div.shop-item img {width:320px;margin:3px 0px;}
 
 	div.textwidget div.pt-cv-wrapper {overflow:hidden;}
 	div.textwidget div.pt-cv-wrapper div.pt-cv-content-item {padding-left:10px;padding-right:10px;}
