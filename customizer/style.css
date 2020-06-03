@@ -17,7 +17,7 @@ div.banner .banner-top-logo {line-height:120px;border-bottom:1px #efefef solid;}
 div.banner .banner-detail {margin:2rem auto 3rem 2rem;text-align:left;}
 div.banner .banner-detail ul li i.sui-arrow-right {width:15px;margin-right:10px;}
 div.banner .banner-payments {padding-top:5px;padding-bottom:24px;}
-div.banner .banner-payments i {margin:0.15rem;}
+div.banner .banner-payments i {font-size:1.5rem;margin:0.15rem;}
 div.banner .banner-bottom {font-size:1rem;padding-top:14px;padding-bottom:2px;border-top:1px #efefef solid;}
 div.banner .banner-bottom a {display:block;margin:0.4rem auto;}
 
@@ -43,6 +43,7 @@ div#footer-horizontal-widget-area div.textwidget > div.center > div table {margi
 div#footer-horizontal-widget-area div.textwidget > div.center > div table td {text-align:center;}
 div#footer-horizontal-widget-area div.textwidget > div.center > div table td img {width:75%;}
 
+div.shop-item > div.img {margin-bottom:1rem;}
 div.shop-item.center {float:none;margin-left:auto;margin-right:auto;}
 div.shop-item.center > img {width:100%;margin-bottom:0 !important;}
 div.shop-item.center.border {width:100%;}
@@ -61,11 +62,11 @@ div.textwidget div.su-heading div.su-heading-inner {padding:0.2em;font-size:18px
 div.textwidget div.su-list ul {text-align:left;}
 div.textwidget div.shop-item {float:none;width:100%;border:1px solid #eee;margin:0;}
 div.textwidget div.shop-item div.title {padding:0.5em 0;font-size:1.2rem;font-weight:bold;background:#fbfcfd;border-bottom:1px solid #eee;margin-bottom:1rem;}
-div.textwidget div.shop-item img {width:90%;margin:1em auto;}
+div.textwidget div.shop-item div.img img {width:90%;margin:1em auto;}
 div.textwidget div.shop-item table {border-top:1px #eee solid !important;margin:1em 0 0 0 !important;width:100%;max-width:100%;box-shadow:none;}
 div.textwidget div.shop-item table tr {border-bottom:none !important;}
-div.textwidget div.shop-item table tr td {padding:0 0.4em !important;border-bottom:none !important;}
-div.textwidget div.shop-item p {text-align:center;}
+div.textwidget div.shop-item table tr td {padding:0.8rem 0.2rem !important;border-bottom:none !important;}
+div.textwidget div.shop-item table tr td img {width:90%;}
 
 table th {letter-spacing:1px !important;}
 table:not(.aawp-table) {border:none !important;}
@@ -315,6 +316,7 @@ emojis.smiling-face-with-smiling-eyes::before {content:'\01F60A';}
 emojis.face-with-tears-of-joy::before {content:'\01F602';}
 emojis.thumbs-up::before {content:'\01F44D';}
 emojis.loudly-crying-face::before {content:'\01F62D';}
+emojis.face-with-head-bandage::before {content:'\01F915';}
 
 #cancel-comment-reply-link, .action-link, .btn-large, .btn-more, .caps, .comment-reply-link, .czr-overlay .overlay-content .nav__container nav, .nav__menu, .post-author__wrapper figure figcaption .action-link, .post-author__wrapper figure figcaption .comment-reply-link, .post-navigation .page-numbers, .post-navigation a, .post-section-title, .sidebar .widget-title, .tax__container a, .widget_calendar caption, .widget_calendar tfoot, .widget_categories li, button, label, input, table th {text-transform:none !important;}
 
@@ -327,9 +329,9 @@ emojis.loudly-crying-face::before {content:'\01F62D';}
 	footer#footer div hr {width:90%;}
 
 	div.comments-area {margin-top:-2rem;}
-	div.shop-item {float:right;width:360px;text-align:center;margin:10px 0 10px 10px;}
+	div.shop-item {float:right;width:360px;text-align:center;margin:0.6rem 0 0.6rem 0.6rem;}
 	div.su-column-inner div.shop-item,div.line-title-section-container + div.shop-item {float:none;margin-left:auto;margin-right:auto;}
-	div.shop-item > img {width:320px;margin:3px 0px;}
+	div.shop-item > div.img > img {width:320px;margin:3px 0px;}
 
 	div.textwidget div.pt-cv-wrapper div.pt-cv-content-item {padding-bottom:5px;}
 	div.textwidget div.pt-cv-wrapper div.pt-cv-ifield img.pt-cv-thumbnail {width:95px;margin-right:12px !important;}
@@ -441,7 +443,6 @@ emojis.loudly-crying-face::before {content:'\01F62D';}
 	.sue-testimonial-has-photo img.sue-testimonial-photo {width:80px !important;height:80px !important;}
 
 	.text-md-right ul {font-size:1.4em;}
-	.xx {line-height:calc(1.5 + .15 * ((100vw - 20em)/ 20));}
 }
 
 .aawp {box-sizing:border-box;background-color:#fff;font-size:15px !important;}
