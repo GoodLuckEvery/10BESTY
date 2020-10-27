@@ -14,6 +14,7 @@ article .header-bottom .entry-meta i {display:inline-block;width:1.2rem;margin-l
 
 div.banner {text-align:center;border:1px solid #eee;background:#fbfcfd;padding-bottom:1rem;}
 div.banner p {text-align:center;}
+div.banner p.review {margin-bottom:0.2rem;}
 div.banner .banner-top-logo {line-height:120px;border-bottom:1px #efefef solid;}
 div.banner .banner-detail {margin:2rem auto 1.5rem 2rem;text-align:left;}
 div.banner .banner-detail ul li i.sui-arrow-right {width:15px;margin-right:10px;}
@@ -61,6 +62,7 @@ div.line-title-section-container + div.su-row .su-column-inner {padding-left:0.5
 div.sidebar li a:hover {color:#a60505 !important;}
 div.textwidget div.su-heading div.su-heading-inner {padding:0.2em;font-size:18px;border-top:4px solid #ffe4e1;border-bottom:4px solid #ffe4e1;}
 div.textwidget div.su-list ul {text-align:left;}
+div.textwidget div.su-list ul li {word-break:break-all;}
 div.textwidget div.shop-item {float:none;width:100%;border:1px solid #eee;margin:0;}
 div.textwidget div.shop-item div.title {padding:0.5em 0;font-size:1.2rem;font-weight:bold;background:#fbfcfd;border-bottom:1px solid #eee;margin-bottom:1rem;}
 div.textwidget div.shop-item div.img img {width:90%;margin:1em auto;}
@@ -68,6 +70,13 @@ div.textwidget div.shop-item table {border-top:1px #eee solid !important;margin:
 div.textwidget div.shop-item table tr {border-bottom:none !important;}
 div.textwidget div.shop-item table tr td {padding:0.8rem 0.2rem !important;border-bottom:none !important;}
 div.textwidget div.shop-item table tr td img {width:90%;}
+
+div.aawp-compare {max-width:600px;margin-left:auto;margin-right:auto;}
+div.aawp-compare table.aawp-compare-table {border:1px #c2c0d6 solid !important;}
+div.aawp-compare table.aawp-compare-table tr td {border:none !important;}
+div.aawp-compare table.aawp-compare-table tr td.aawp-table-td-thumb {padding:1.25rem !important;}
+div.aawp-compare table.aawp-compare-table tr td.aawp-table-td-description {padding-top:1.5rem !important;padding-bottom:1.5rem !important;}
+div.aawp-compare table.aawp-compare-table-featured {border:1px #38d39f solid !important;}
 
 table th {letter-spacing:1px !important;}
 table:not(.aawp-table) {border:none !important;}
@@ -174,10 +183,7 @@ hr.split {margin:0 !important;border-top:1px #5ce solid !important;}
 .su-table table.su-table-left td {text-align:left !important;}
 
 .sue-pricing-table {margin-left:auto;margin-right:auto;}
-.sue-pricing-table .sue-plan:first-child {margin-left:auto;}
-.sue-pricing-table .sue-plan:last-child {margin-right:auto;}
-.sue-pricing-table .sue-plan,.sue-plan-featured {max-width:300px;}
-.sue-pricing-table-small .sue-plan-options ul li {font-size:14px;line-height:30px !important;min-height:31px;}
+.sue-pricing-table-small .sue-plan-options ul li {font-size:14px;padding:1px 0 !important;line-height:30px !important;min-height:32px;}
 .sue-pricing-table-small-button .sue-plan-footer a {font-size:15px;padding:2px 10px !important;border-radius:3px;}
 .sue-plan-price-after {font-size:0.5em !important;}
 .sue-plan-options {padding:0 1rem;}
