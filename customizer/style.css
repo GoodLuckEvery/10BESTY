@@ -149,6 +149,7 @@ hr.split {margin:0 !important;border-top:1px #5ce solid !important;}
 .content-landing-button a img.app-store {width:150px;}
 
 .grid .entry-title {font-size:1.2rem;}
+.grid .grid__item {outline-offset:0;}
 .comment-reply-title {margin-top:0;}
 .comment-list li.comment {margin-top:1.5rem;padding-top:1.5rem;}
 .post-navigation .page-numbers, .post-navigation a {font-size:1.16rem;}
@@ -212,6 +213,7 @@ hr.split {margin:0 !important;border-top:1px #5ce solid !important;}
 .su-alert-blue {border-left:0.5rem #0073ec solid;background-color:#ebfaff;}
 .su-alert-yellow {border-left:0.5rem #ffda00 solid;background-color:#fffae8;}
 .su-alert-purple {border-left:0.5rem #7a4aec solid;background-color:#f1ecfd;}
+.su-alert-tips {border-left:0.5rem #ffda00 solid;background-color:#fffae8;}
 .su-alert-best-seller {border-left:0.5rem #ff8c00 solid;background-color:#fffaf0;}
 .su-alert-best-seller-related-posts {border-left:0.5rem #1dabda solid;background-color:#ddffff;}
 
@@ -323,7 +325,7 @@ hr.split {margin:0 !important;border-top:1px #5ce solid !important;}
 footer#footer #footer-widget-area {text-align:left;position:relative;}
 footer#footer #footer-widget-area div.title {font-size:16px;margin-left:0.5rem;}
 footer#footer #footer-widget-area div p {padding-left:0.5rem;}
-footer#footer #footer-widget-area div p.text {color:#777;}
+footer#footer #footer-widget-area div p.text {color:#777;text-align:justify;}
 footer#footer #footer-widget-area div p a {font-size:15px;line-height:36px;}
 footer#footer #footer-widget-area div hr {margin-top:15px;margin-bottom:15px;width:90%;border-bottom:0px;border-top:1px #888 solid;}
 	
