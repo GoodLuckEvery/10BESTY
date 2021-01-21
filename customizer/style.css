@@ -302,6 +302,11 @@ hr.split {margin:0 !important;border-top:1px #5ce solid !important;}
 .btn-draw {display:block;cursor:pointer;color:#3f95ff !important;font-size:1rem;margin-bottom:1rem;padding:0.64rem;text-align:center;border:2px #3f95ff solid;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
 .btn-draw:hover {color:#fff !important;background-color:#00aeef;}
 
+.language-switcher {margin-top:2rem;}
+.language-switcher a {color:#777 !important;border:1px #777 solid;text-align:center;text-decoration:none;padding:0.5rem 0.8rem;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;font-size:0.8rem;}
+.language-switcher a:hover {color:#fff !important;background-color:#777;border-color:#777;}
+.language-switcher a img {width:1rem;display:inline-block;margin:0 0.4rem 0.15rem 0;}
+
 footer#footer #footer-widget-area {text-align:left;position:relative;}
 footer#footer #footer-widget-area div.title {font-size:16px;margin-left:0.5rem;}
 footer#footer #footer-widget-area div p {padding-left:0.5rem;}
